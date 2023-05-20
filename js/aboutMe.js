@@ -9,13 +9,8 @@ updateAboutMeContent();
 
 $(".about p").click(function() {
 
-//background must be powder blue when clicked and text is white
-
 $(this).css("background-color", "powderblue")
 
 $(this).css("color", "white");
-}
-)
-
-
+});
 }); 

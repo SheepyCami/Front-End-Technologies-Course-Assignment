@@ -1,13 +1,22 @@
-let tabledata = [
-    { id: 1, icon: 'bi-globe', description: 'Description 1', info: 'Info 1', image: 'https://cdn.pixabay.com/photo/2018/04/13/16/13/pixel-3316924_960_720.png' },
-    { id: 2, icon: 'bi-chat-dots', description: 'Description 2', info: 'Info 2', image: 'image2.jpg' },
-    { id: 3, icon: 'bi-heart', description: 'Description 3', info: 'Info 3', image: 'image3.jpg' },
-    { id: 4, icon: 'bi-star', description: 'Description 4', info: 'Info 4', image: 'image4.jpg' },
-    { id: 5, icon: 'bi-envelope', description: 'Description 5', info: 'Info 5', image: 'image5.jpg' },
-];
+$(document).ready(function() {
 
-function generateTable(table, data) {
-    for (let element of data) {
+  var tabledata = [
+    { id: 1, icon: "bi bi-globe", description: "Education", info: "Noroff", image: "image1.jpg" },
+    { id: 2, icon: "bi bi-star", description: "Skills", info: "Eating potatochips", image: "image2.jpg" },
+    { id: 3, icon: "bi bi-heart", description: "Interests", info: "Hamsters", image: "image3.jpg" },
+    { id: 4, icon: "bi bi-book", description: "Languages", info: "JavaScript, HTML, CSS... ", image: "image4.jpg" },
+    { id: 5, icon: "bi bi-lightning", description: "Hobbies", info: "Coding of course!", image: "image5.jpg" }
+  ];
+
+  tabledata[0].image = './table images/bulba.jpg';
+  tabledata[1].image = './table images/eevee.jpg';
+  tabledata[2].image = './table images/pika.jpg';
+  tabledata[3].image = './table images/pikapi.jpg';
+  tabledata[4].image = './table images/vulpix.jpg';
+  
+  function generateTable(table, data) {
+    for (let i = 0; i < data.length; i++) {
+      let element = data[i];
       let row = table.insertRow();
       for (key in element) {
         let cell = row.insertCell();
@@ -15,15 +24,35 @@ function generateTable(table, data) {
           let icon = document.createElement('i');
           icon.className = 'bi ' + element[key];
           cell.appendChild(icon);
+        } else if (key === 'image') {
+          let img = document.createElement('img');
+          img.src = element[key];
+          img.style.height = '100px'; 
+
+
+          $(img).on('click', function(e) {
+            window.open(element[key], '_blank');
+          });
+
+          img.style.cursor = 'pointer'; 
+          cell.appendChild(img);
         } else {
           let text = document.createTextNode(element[key]);
           cell.appendChild(text);
         }
       }
+
+      if (i % 2 === 0) {
+        $(row).on('mouseenter', function() {
+          $(this).css('color', 'red');
+        });
+        $(row).on('mouseleave', function() {
+          $(this).css('color', 'black');
+        });
+      }
     }
   }
-
-
   
   let table = document.querySelector("table");
   generateTable(table, tabledata);
+});
