@@ -14,4 +14,4 @@ In the table.js file I could not get the images to load with links in the table,
 I don't think any licences have been used for this project.  
 ```
 ## Contributing
-Camilla Seeland :)
+Camilla Seeland <3 :)
