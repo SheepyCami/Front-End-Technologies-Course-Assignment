@@ -6,7 +6,6 @@ This is my submission to the FET CA at Noroff Fagskole
 
 ### Project Details
 
-```
 for this project I had to create 5 specified JavaScript files:
 
 1. welcome.js
@@ -21,8 +20,6 @@ for this project I had to create 5 specified JavaScript files:
 - To install the application, you need to download all the files, and run the index.html file from your program.
 - The last changes made to this project was 21.05.2023.
 
-
-```
 
 ## Required functionality in the Course Assignment project:
 
@@ -91,10 +88,10 @@ for this project I had to create 5 specified JavaScript files:
 ### Accessibility.js:
 
 - Create an ‘accessibility.js’ file in the correct folder.
-- In the Accessibility’ section, we have a visual aid for users who struggle to read small font in the form of a Toggle Switch. 
-- When the user clicks this Toggle Switch to the ‘On’ position, all text on the web page within <p> tags need to be increased by 20%. 
-- When the user clicks the Toggle Switch back to the ‘Off’ position, all text on the web page within <p> tags needs to be decreased back to the original size. 
--Create a single function in the file that accomplishes this.
+- In the Accessibility’ section, we have a visual aid for users who struggle to read small font in the form of a Toggle Switch.
+- When the user clicks this Toggle Switch to the ‘On’ position, all text on the web page within <p> tags need to be increased by 20%.
+- When the user clicks the Toggle Switch back to the ‘Off’ position, all text on the web page within <p> tags needs to be decreased back to the original size.
+  -Create a single function in the file that accomplishes this.
 
 ### Contributors:
 
