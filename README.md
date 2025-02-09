@@ -32,11 +32,12 @@ for this project I had to create 5 specified JavaScript files:
 - This function should be run when the user clicks the ‘Like’ button in the HTML header.
 - Make a copy of the ‘Like’ button element in the HTML file and place it directly after the existing ‘Like’ button element.
 - Change the button text to “I’m Bored” and the element’s ID to “boredBtn”.
-- In the same ‘welcome.js’ file, create another function that executes a GET Request to the “http://boredapi.restapi.co.za/” API, once the new "I’m Bored” button is clicked.
+- In the same ‘welcome.js’ file, create another function that executes a GET Request,
+ to the “http://boredapi.restapi.co.za/” API, once the new "I’m Bored” button is clicked.
 - The response from this API Request should be logged into the web console.
 
-```
 
+``
 ### table.js:
 
 - Create a ‘table.js’ file in the correct folder.
@@ -50,8 +51,7 @@ for this project I had to create 5 specified JavaScript files:
 1. When one of the images in the Table is clicked, the image must be displayed in a new window or tab in your web browser.
 2. The table’s odd rows need to change font color when the mouse hovers over them, changing font color back to black once the mouse stops hovering over them. (Either the odd index or the odd numbered rows may be changed).
 
-```
-
+``
 ### aboutMe.js:
 
 - Create an ‘aboutMe.js’ file in the correct folder.
@@ -60,10 +60,9 @@ for this project I had to create 5 specified JavaScript files:
 - Change the "| student name |" to your student name in the about me section. (For example, it will read: Hello! I am John Smith, the code master.) This change should be done in the same function as the "something about me text" change.
 - When you click the content in the "something about me" section that you have updated, the background color for the clicked element needs to change to powder-blue, and the font color needs to change to white.
 
-```
-
-### Contributing:
+``
+### aboutMe.js:
 
 JavaScript: Camilla Seeland
 All other files and code: Noroff Fagskole
-```
+
