@@ -20,7 +20,6 @@ for this project I had to create 5 specified JavaScript files:
 - To install the application, you need to download all the files, and run the index.html file from your program.
 - The last changes made to this project was 21.05.2023.
 
-
 ## Required functionality in the Course Assignment project:
 
 ### welcome.js
@@ -56,7 +55,7 @@ for this project I had to create 5 specified JavaScript files:
 
 ### contact.js:
 
--Create a ‘contact.js’ file in the correct folder.
+- Create a ‘contact.js’ file in the correct folder.
 
 - In this file, you must create a single function with the following 3 variables:
 
