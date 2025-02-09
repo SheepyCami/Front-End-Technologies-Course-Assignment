@@ -1,7 +1,7 @@
-# Camilla_Seeland_FET
+# Reception Management Dashboard Staff
 
-### Front End Technologies Course Assignment 
-This is my submission to the FET CA.
+### Front End Technologies Course Assignment for Noroff
+This is my submission to the FET CA at Noroff Fagskole
 ### Project Details
 
 ```
