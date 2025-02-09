@@ -1,4 +1,4 @@
-# Reception Management Dashboard Staff
+# "The code master" Portfolio Practise
 
 ### Front End Technologies Course Assignment for Noroff
 
@@ -94,5 +94,5 @@ for this project I had to create 5 specified JavaScript files:
 
 ### Contributors:
 
-JavaScript: Camilla Seeland
-All other files and code: Noroff Fagskole
+- JavaScript: Camilla Seeland
+- All other files and code: Noroff Fagskole
